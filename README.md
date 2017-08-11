@@ -159,6 +159,7 @@ the branch created from the installation.
     $ git merge origin/nginx-php7                 # Merge in latest
     $ bin/composer update --ignore-platform-reqs  # Update composer.lock file
     $ git push heroku {SLUG}:master               # Deploy to Heroku
+    $ git push heroku HEAD:master                 # This is what works for Omar
 
 After pushing changes update the WordPress database via WP-CLI:
 
